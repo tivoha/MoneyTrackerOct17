@@ -14,26 +14,27 @@
         >
 
         <EditText
-            android:inputType="text"
-            android:layout_weight="1"
-            android:maxLines="1"
-            android:hint="@string/title_string"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/title_string"
+            android:inputType="text"
+            android:maxLines="1" />
 
         <EditText
-            android:inputType="number"
-            android:layout_weight="1"
-            android:maxLines="1"
-            android:hint="@string/price_string"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/price_string"
+            android:inputType="number"
+            android:maxLines="1" />
 
         <ImageView
-            android:layout_gravity="center_vertical"
-            android:src="@drawable/ic_add_black_24dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_add_black_24dp" />
+
 
     </LinearLayout>
 
